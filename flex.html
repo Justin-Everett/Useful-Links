@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="box.css">
+    <title>Quick Links</title>
+</head>
+
+<body>
+
+    <div class="parent container" id="parent">
+        <div id="blob"></div>
+        <div class="signature mono">Website Made By Justin Everett</div>
+
+        <div class="input-box">
+            <input class='mono' id="Input" placeholder="Search Here" onsubmit="doSubmit()">
+        </div>
+        <div class="break"></div>
+        <div class="button flex">
+            <img src="https://www.freepnglogos.com/uploads/youtube-play-red-logo-png-transparent-background-6.png"
+                draggable="false">
+            <div class="child flex mono" id="child1" data-link="https://www.youtube.com/">YOUTUBE</div>
+        </div>
+        <div class="button flex">
+            <img src="https://static.thenounproject.com/png/2275823-200.png" draggable="false">
+            <div class="child flex mono" id="child2" data-link="https://www.chess.com/home">CHESS</div>
+        </div>
+        <div class="button flex">
+            <img src="https://cdn-icons-png.flaticon.com/512/3570/3570013.png" draggable="false">
+            <div class="child flex mono" id="child3" data-link="https://chat.openai.com/chat">CHATGPT</div>
+        </div>
+        <div class="break"></div>
+        <div class="button flex">
+            <img src="https://pbs.twimg.com/profile_images/635750090796343296/DVCMsmms_400x400.png" draggable="false">
+            <div class="child flex mono" id="child4" data-link="https://moodle.royalholloway.ac.uk/my/">MOODLE</div>
+        </div>
+        <div class="button flex">
+            <img src="https://cdn-icons-png.flaticon.com/512/3077/3077134.png" draggable="false">
+            <div class="child flex mono" id="child5" data-link="https://lum-prod.ec.royalholloway.ac.uk/">LECTURES</div>
+        </div>
+    </div>
+    <script src="effects.js"></script>
+</body>
